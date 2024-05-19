@@ -2,7 +2,7 @@
 <ul>
   <li>Clone the project</li>
   <li>Open terminal and run </li>
-  \```sh
+\```sh
 #!/bin/bash
 echo "Hello, World!"
 \```
