@@ -1,0 +1,15 @@
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.container:hover {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    38deg,
+    rgba(9, 9, 121, 1) 40%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}

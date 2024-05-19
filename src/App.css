@@ -1,0 +1,38 @@
+.fixedBar{
+  position: absolute;
+  margin-top: -120px;
+  z-index: 1;
+}
+.fixedBarContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  z-index: 2;
+  position: relative;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #705a83;
+  border-radius: 50%;
+  display: inline-block;
+}
+.join{
+  padding: 15px 30px;
+}
+.joinFixed{
+  padding: 10px 20px;
+}
+.searchConnector{
+  margin: -6px;
+}
+.discussButton{
+  padding: 10px 20px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #3020ff,#f00);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
